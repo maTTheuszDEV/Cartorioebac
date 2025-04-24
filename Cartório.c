@@ -1,7 +1,7 @@
-#include <stdio.h> //biblioteca de comunica√ß√£o com o usu√°rio
-#include <stdlib.h> //biblioteca de aloca√ß√£o de espa√ßo em mem√≥ria
-#include <locale.h> //biblioteca de aloca√ß√µes de texto por regi√£o
-#include <string.h> //biblioteca respons√°vel por cuidar das string
+#include <stdio.h> //biblioteca de comunicaÁ„o com o usu√°rio
+#include <stdlib.h> //biblioteca de alocaÁ„o de espaÁo em memÛria
+#include <locale.h> //biblioteca de alocaÁıes de texto por regi„o
+#include <string.h> //biblioteca respons·vel por cuidar das string
 		
 int registro() //FunÁ„o respons·vel por cadastrar os usu·rios no sisema
 {
@@ -116,7 +116,7 @@ int deletar()
 	
 int main()
 	{
-	int opcao=0; //Definindo vari√°veis
+	int opcao=0; //Definindo vari·veis
 	int laco=1;
 	
 	for(laco=1;laco=1;)
@@ -134,7 +134,7 @@ int main()
 		printf("\t4 - Sair do sistema\n\n");
 		printf("OpÁ„o: ");//fim do menu
 				
-		scanf("%d", &opcao); //armazenando a escolha do usu√°rio
+		scanf("%d", &opcao); //armazenando a escolha do usu·rio
 		
 		system("cls"); //Respons·vel por limpar a tela
 	
@@ -163,7 +163,7 @@ int main()
 			printf("Essa opÁ„o n„o est· disponivel!\n");
 			system("pause");
 			break;
-		} //fim da sele√ß√£o
+		} //fim da seleÁ„o
 			
 	}	
 }
